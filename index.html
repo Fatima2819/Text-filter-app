@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Filter App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Check Text Toxicity</h1>
+    <form method="POST">
+        <textarea name="text" rows="4" placeholder="Enter text..."></textarea><br>
+        <button type="submit">Check</button>
+    </form>
+</body>
+</html>
